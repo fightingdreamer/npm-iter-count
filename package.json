@@ -1,0 +1,40 @@
+{
+  "name": "@fightingdreamer/iter-count",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/iter-count.cjs",
+  "module": "./dist/iter-count.js",
+  "typings": "./dist/iter-count.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/iter-count.js",
+      "require": "./dist/iter-count.cjs"
+    }
+  },
+  "version": "0.1.0",
+  "description": "Count number of items in iterator.",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "keywords": [
+    "iter"
+  ],
+  "author": {
+    "name": "Patryk Stępień"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fightingdreamer/npm-iter-count",
+  "devDependencies": {
+    "vite": "^5.0.5",
+    "vite-plugin-dts": "^3.6.4",
+    "vitest": "^0.34.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
