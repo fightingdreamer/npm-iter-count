@@ -2,7 +2,7 @@
 
 ## Description
 
-Count items in iterable.
+Count items in `Iterable`.
 
 Second implementation will count unique items and group them (similar to `uniq -c`).
 
@@ -62,10 +62,10 @@ for (const [key, value] of expect.entries()) {
 function count<T>(iterator: Iterable<T>): number
 ```
 
-Will count items in iterator.
+Will count items in 'iterator'.
 
 ```js
 function countUnique<T>(iterator: Iterable<T>): Map<T, number>
 ```
 
-Will count items in iterator and group them into Map.
+Will count items in 'iterator' and group them into Map.
