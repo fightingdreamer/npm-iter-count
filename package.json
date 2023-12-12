@@ -13,7 +13,7 @@
       "require": "./dist/iter-count.cjs"
     }
   },
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Count number of items in iterator.",
   "scripts": {
     "lint": "eslint lib",
