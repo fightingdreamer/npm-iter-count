@@ -16,6 +16,7 @@
   "version": "0.1.2",
   "description": "Count number of items in iterator.",
   "scripts": {
+    "lint": "eslint lib",
     "test": "vitest --run",
     "test:watch": "vitest",
     "build": "vite build",
